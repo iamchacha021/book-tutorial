@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    font-size: 2rem;
+    font-family: monospace;
+    /* line-height: 2rem; */
+}
+
+#page-banner{
+    border: solid 2px red;
+    width: 80vw;
+    margin: auto;
+    background-color: #bbb;
+}
+
+#page-banner form {
+    border: none;
+    margin-bottom: 1rem;
+    
+}
+
+
+#page-banner form input{
+    padding: 0.5rem 7rem 0.5rem 0.5rem;
+}
+
+
+#book-list {
+    border: solid 2px red;
+    width: 80vw;
+    min-height: 90vh;
+    margin: auto;
+}
+
+/* main ul{
+    line-height: 2rem; 
+} */
+ ul li {
+    list-style-type: none;
+    line-height: 2rem;
+    color: whitesmoke;
+    margin-top: 5rem;
+    text-align: right;
+    margin-right: 10rem;
+}
+
+#wrapper #book-list li {
+    line-height: 2rem;
+    margin-left: auto;
+}
+
+ .name {
+    border: solid #444 2px;
+    background-color: #222;
+    padding: 1rem;
+    
+}
+
+.delete {
+    border: red ridge 4px;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+form {
+    margin: 5rem;
+}
+
+form input{
+    padding: 0.5rem 7rem 0.5rem 0.5rem;
+    margin: 1rem 0.5rem 0 0;
+}
+button {
+    padding: 0.5rem 3rem 0.5rem 2rem;
+    margin: 0.5rem 0.5rem 0 0;
+    background-color: rgb(91, 54, 166);
+    font-size: inherit;
+    color: white;
+    
+}
